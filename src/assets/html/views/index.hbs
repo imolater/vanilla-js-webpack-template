@@ -1,0 +1,23 @@
+{{> layout/header }}
+
+<div class="app theme--light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                {{> components/hello-world }}
+            </div>
+
+            <div class="col-12">
+                <div class="headline">Статичная картинка</div>
+                <img src="/img/static-img.png" alt="Логотип">
+            </div>
+
+            <div class="col-12">
+                <div class="headline">Динамическая картинка</div>
+                <img src="@/assets/img/dynamic-img.png" alt="Логотип">
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> layout/footer }}
